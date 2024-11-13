@@ -1,0 +1,44 @@
+body{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(192, 221, 240));
+}
+.container{
+  
+    
+    border: 5px solid snow;
+    margin-top: 150px;
+    background-color: rgb(163, 229, 255);
+    border-radius: 15px;
+    
+}
+.btn {
+    position: relative;
+    bottom: 5px;
+    left:5 px;
+}
+a{
+    font-size: x-small;
+    margin-left: 170px;
+}
+.singup22{
+    margin-top: 5px;
+    padding: 10px;
+}
+.p22{
+    font-size: 21px;
+}
+h1{
+    position: relative;
+    top: 100px;
+}
+.c11 {
+    max-width: 500px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form */
+    padding: 20px; /* Add some padding */
+  }
+  
+  @media (max-width: 576px) {
+    .c11 {
+      max-width: 90%; /* Make it almost full-width on small screens */
+    }
+  }
+  
